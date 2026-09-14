@@ -211,4 +211,4 @@ int main(int argc, char **argv)
 
 
 ## RESULT:
-Thus, Implementation of sum arrays on host and device is done in nvcc cuda using random number.
+Thus, vector addition was successfully implemented on both the host (CPU) and device (GPU) using CUDA. The results obtained using different block configurations were verified successfully, and the GPU results matched the CPU results. The comparison showed that changing the block size changes the number of blocks and execution time, while processing two elements per thread can reduce the number of required threads and blocks.
